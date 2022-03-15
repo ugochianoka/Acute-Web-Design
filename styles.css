@@ -59,7 +59,7 @@ header a:active{
     color:#E8491D;
 }
 #showcase{
-    background-image:url(/images/otherr.png);
+    background-image:url(otherr.png);
     min-height:500px;
     background-repeat: no-repeat;
     background-size: 100%;
