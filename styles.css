@@ -59,7 +59,7 @@ header a:active{
     color:#E8491D;
 }
 #showcase{
-    background-image:url(otherr.png);
+    background-image:url(/images/otherr.png);
     min-height:500px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -240,5 +240,70 @@ background-color: #cccccc ;
         float:left;
         width:100%;
         margin-bottom: 20px;
+    }
+}
+@media(max-width:428px){
+    #branding{
+        float:none;
+        text-align: center;
+    }
+    #nav-bar{
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    #showcase h1{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #showcase{
+        height: 202px;
+        background-size: 100% 100%;
+        background-position-y: 0px;
+        min-height: 0px;
+    }
+    .sub{
+        float:none;
+        text-align: center;
+    }
+    .subs{
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .box1{
+        float:none;
+        width: 100%;
+    }
+    .box2{
+        float:none;
+        width: 100%;
+    }
+    .box3{
+        float: none;
+        width: 100%;
+    }
+    .innn{
+        float: none;
+        width: 100%;
+    }
+    #form{
+        float:none;
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .left{
+        float:none;
+        width:100%;
+    }
+    #right{
+        float:left;
+        width:100%;
+        margin-bottom: 20px;
+    }
+    #showcase p{
+        font-size: 5px;
     }
 }
