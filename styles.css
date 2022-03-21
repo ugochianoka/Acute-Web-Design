@@ -180,6 +180,9 @@ background-color: #cccccc ;
     margin-top: 5px;
     display: block;
 }
+.cram{
+display:flex;
+}
 /*media queries*/
 @media(max-width:768px){
     #branding{
