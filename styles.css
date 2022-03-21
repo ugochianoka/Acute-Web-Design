@@ -59,7 +59,7 @@ header a:active{
     color:#E8491D;
 }
 #showcase{
-    background-image:otherr.png;
+    background-image:url(otherr.png);
     min-height:500px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -179,9 +179,6 @@ background-color: #cccccc ;
 #right button{
     margin-top: 5px;
     display: block;
-}
-.cram{
-display:flex;
 }
 /*media queries*/
 @media(max-width:768px){
